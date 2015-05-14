@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="62fe8401-b23e-4b7a-9534-2f4be8d2e680" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Barnes_Steven_Expressions_Assignment/js/Expressions_Assignment.js" afterPath="$PROJECT_DIR$/Barnes_Steven_Expressions_Assignment/js/Expressions_Assignment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Barnes_Steven_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="Expressions_Assignment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Barnes_Steven_Expressions_Assignment/js/Expressions_Assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4341534">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6078148">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -79,8 +78,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="329" />
-    <option name="y" value="70" />
+    <option name="x" value="449" />
+    <option name="y" value="23" />
     <option name="width" value="857" />
     <option name="height" value="788" />
   </component>
@@ -193,7 +192,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="329" y="70" width="857" height="788" extended-state="0" />
+    <frame x="449" y="23" width="857" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -336,8 +335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Barnes_Steven_Expressions_Assignment/js/Expressions_Assignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4341534">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6078148">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

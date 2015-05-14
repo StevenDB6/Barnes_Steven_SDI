@@ -18,3 +18,11 @@ console.log (name);
 alert("Welcome "+ name+" Let's figure out how much you would weigh with body armour.");
 
 
+//Ask the user how much do they weigh
+var bodyWeight = prompt("How much do you weigh?");
+console.log(bodyWeight);
+
+//Calculate the weight of the body armour
+
+var bodyArmour = prompt(" how much does your bodyArmour weigh?");
+console. log(bodyArmour);
