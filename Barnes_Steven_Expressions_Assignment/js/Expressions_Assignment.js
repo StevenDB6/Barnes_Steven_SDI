@@ -28,10 +28,17 @@ var bodyArmour = prompt(" how much does your bodyArmour weigh?");
 console. log(bodyArmour);
 
 //Calculate the total weight of the user
-var bodyWeight = 173;
-var bodyArmour = 80;
+var bodyWeight = 173
+var bodyArmour =80
 
 var totalWeight = bodyWeight + bodyArmour
 
 //alert user with total weight
 alert(name+" you weigh "+totalWeight+" pounds.");
+
+/*
+I typed in 173 for my weight
+and added the weight of the body armour
+which is 80
+and it said 253
+ */
