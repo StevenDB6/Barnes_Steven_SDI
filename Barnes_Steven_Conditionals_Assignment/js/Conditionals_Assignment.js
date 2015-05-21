@@ -8,7 +8,7 @@ Barnes_Steven_Conditionals_Assignment
  // Create a calculator that keeps track of how much money is in a piggy bank
 
 // Create virtual piggy bank as an array
-var piggyBank = ["penny", "dime", "nickle", "quarter"];
+var piggyBank = ["penny", "dime", "nickle", "quarter", "penny"];
 
 //print out the whole array
 console.log(piggyBank);
@@ -28,7 +28,7 @@ var totalNumQuarters=0;
 if(piggyBank[0]==="quarter") {
     //Code inside of here will run if that item is a quarter
     console.log("this item is a quarter");
-    //add 1 to the total number of peras
+    //add 1 to the total number of quarters
     totalNumQuarters++;
 }else{
     //code inside of here will run if the item in not a quater
@@ -39,7 +39,7 @@ if(piggyBank[0]==="quarter") {
 if(piggyBank[1 ]==="quarter") {
     //Code inside of here will run if that item is a quarter
     console.log("this item is a quarter");
-    //add 1 to the total number of peras
+    //add 1 to the total number of quarters
     totalNumQuarters++;
 }else{
     //code inside of here will run if the item in not a quater
@@ -50,7 +50,7 @@ if(piggyBank[1 ]==="quarter") {
 if(piggyBank[3]==="quarter") {
     //Code inside of here will run if that item is a quarter
     console.log("this item is a quarter");
-    //add 1 to the total number of peras
+    //add 1 to the total number of quarters
     totalNumQuarters++;
 }else{
     //code inside of here will run if the item in not a quater
@@ -61,7 +61,7 @@ if(piggyBank[3]==="quarter") {
 if(piggyBank[2]==="quarter") {
     //Code inside of here will run if that item is a quarter
     console.log("this item is a quarter");
-    //add 1 to the total number of peras
+    //add 1 to the total number of quarters
     totalNumQuarters++;
 }else{
     //code inside of here will run if the item in not a quater
@@ -69,4 +69,47 @@ if(piggyBank[2]==="quarter") {
 }
 
 //Console log the total number of quarters
-console.log(totalNumQuarters+" total number of quarters in the piggyBank");
+console.log(totalNumQuarters+" quarters in the piggyBank");
+
+//create a variable to count the number of pennies in the array
+var totalNumPennies=0;
+
+if(piggyBank[3]==="penny") {
+    //Code inside of here will run if that item is a penny
+    console.log("this item is a penny");
+    //add 1 to the total number of pennies
+    totalNumPennies++;
+}else{
+    //code inside of here will run if the item in not a quater
+    console.log("Item is not a penny");
+}
+
+//Test the first item
+if(piggyBank[0]==="penny") {
+    //Code inside of here will run if that item is a penny
+    console.log("this item is a penny");
+    //add 1 to the total number of pennies
+    totalNumPennies++;
+}else{
+    //code inside of here will run if the item in not a quater
+    console.log("Item is not a penny");
+}
+
+//Test the fifth item
+if(piggyBank[4]==="penny") {
+    //Code inside of here will run if that item is a penny
+    console.log("this item is a penny");
+    //add 1 to the total number of pennies
+    totalNumPennies++;
+}else {
+    //code inside of here will run if the item in not a quater
+    console.log("Item is not a penny");
+}
+
+//Console log the total number of pennies and quarters
+console.log(totalNumPennies+" pennies in the piggyBank");
+console.log(totalNumQuarters+" quarters in the piggyBank");
+
+//Subtract a quater from the piggyBank
+
+//
