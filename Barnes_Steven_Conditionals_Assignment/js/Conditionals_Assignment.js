@@ -21,4 +21,52 @@ console.log(piggyBank.length);
 
 
 //create a variable to count the number of quarters in the array
-var totalNumQuarters=0; 
+var totalNumQuarters=0;
+
+// Test each coin to see if it is a "quarter"
+
+if(piggyBank[0]==="quarter") {
+    //Code inside of here will run if that item is a quarter
+    console.log("this item is a quarter");
+    //add 1 to the total number of peras
+    totalNumQuarters++;
+}else{
+    //code inside of here will run if the item in not a quater
+    console.log("Item is not a quater");
+}
+
+//Test second item in array
+if(piggyBank[1 ]==="quarter") {
+    //Code inside of here will run if that item is a quarter
+    console.log("this item is a quarter");
+    //add 1 to the total number of peras
+    totalNumQuarters++;
+}else{
+    //code inside of here will run if the item in not a quater
+    console.log("Item is not a quater");
+}
+
+//Test third item
+if(piggyBank[3]==="quarter") {
+    //Code inside of here will run if that item is a quarter
+    console.log("this item is a quarter");
+    //add 1 to the total number of peras
+    totalNumQuarters++;
+}else{
+    //code inside of here will run if the item in not a quater
+    console.log("Item is not a quater");
+}
+
+//Testing the forth item
+if(piggyBank[2]==="quarter") {
+    //Code inside of here will run if that item is a quarter
+    console.log("this item is a quarter");
+    //add 1 to the total number of peras
+    totalNumQuarters++;
+}else{
+    //code inside of here will run if the item in not a quater
+    console.log("Item is not a quater");
+}
+
+//Console log the total number of quarters
+console.log(totalNumQuarters+" total number of quarters in the piggyBank");
