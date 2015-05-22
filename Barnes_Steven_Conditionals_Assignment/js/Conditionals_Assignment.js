@@ -141,3 +141,37 @@ I added another penny to get my results for the computer to calculate multiple p
 and I got the total number of two.
  */
 
+//Validate user prompt
+
+//Ask user for input
+var userInput = prompt(" Please type in your name?");
+
+//validate propmpt to see if blank
+
+if(userInput===""){
+    //Code will run if user leaves it blank
+    //re-prompt the user using the Same variable above
+    userInput=prompt(" Please do not leave blank. What is your name?");
+}
+
+//Ask the user their are they married
+var userInput = prompt(" Are you married?");
+
+//Validate prompt to see if left blank
+
+if(userInput===""){
+    //Code will run if user leaves it blank
+    //re-prompt user the same variable above
+    userInput = prompt(" Please enter are you married.");
+}
+
+// Ask user what year
+var userInput = prompt(" What mm/dd/yyyy did you get married?");
+
+//Validate propt to see if blank
+
+if(userInput===""){
+    //Code will run if user leaves blank
+    //re-prompt the user
+    userInput = prompt(" Please enter the mm/dd/yyyy you got married.");
+}
