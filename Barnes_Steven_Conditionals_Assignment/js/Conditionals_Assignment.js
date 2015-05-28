@@ -175,3 +175,8 @@ if(userInput===""){
     //re-prompt the user
     userInput = prompt(" Please enter the mm/dd/yyyy you got married.");
 }
+
+/*
+I valited the user prompts by asking specific questions, and if the user
+didn't answer the question the question was asked again.
+ */
