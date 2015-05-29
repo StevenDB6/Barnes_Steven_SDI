@@ -46,14 +46,22 @@ console. log("Your current airspeed is " +airSpeed+ "mph. ");
  and get the answer 69.
  */
 
+// Make a workable function
+function unknownNumber(mph,knots){
 
-function unknownNumber(){
-// Get a random number
-var randomNumber =Math.random()*(mph*knots)
-console. log(randomNumber);
+// Get a new number
+var roundedNumber = Math.round(mph*knots)
+console. log(roundedNumber);
 
+    //Return the value to our main code
+    return roundedNumber;
 }
 
-// Make a workable function
+var results= unknownNumber(mph,knots);
+console. log(results);
 
-unknownNumber();
+
+/*
+I was able to have the computer round to get differnt answers, and was also
+able to return the value to my main code.
+ */
